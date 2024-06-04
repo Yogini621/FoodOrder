@@ -71,7 +71,7 @@ export default class LoginPage extends Component<Props, State> {
           this.props.navigation.navigate('AdminPage',{data: this.adminData});
         } else {
           Alert.alert('Incorrect Credentials');
-        }
+        } 
       } else {
         if (email === this.userData.email && password === this.userData.password) {
           this.props.navigation.navigate('UserPage');
