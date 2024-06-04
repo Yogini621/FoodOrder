@@ -225,7 +225,7 @@
 //     paddingVertical: 20,
 //     paddingHorizontal: 36,
 //     marginHorizontal: 2,
-//   },
+//   }, 
 //   heightView: {
 //     top: 200,
 //   },
